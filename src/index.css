@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #F8F7F4;
+    --ink: #18181A;
+    --accent: #2563EB;
+    --border: rgba(24, 24, 26, 0.1);
+  }
+
+  ::selection {
+    background: #2563EB;
+    color: #F8F7F4;
+  }
+
+  body {
+    background-color: #F8F7F4;
+    color: #18181A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.035em;
+  }
+}
+
+.font-display {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.label-caps {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}

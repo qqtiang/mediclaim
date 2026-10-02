@@ -1,0 +1,6 @@
+{
+  "name": "MedClaim - Medical Cost Submission & OCR Portal",
+  "description": "Upload medical receipts and invoices to automatically extract employee names, clinic details, financial breakdown, and illness summaries via OCR, with live editing and Excel (.xlsx) export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
